@@ -1,0 +1,45 @@
+schema = "se-manifest-1"
+
+[repo]
+name = "StructuralExplainability"
+org = "structural-explainability"
+kind = "formalization"
+status = "reference"
+since = "2025"
+summary = "Lean cross-cutting conformance composition and neutrality predicates for the SE space."
+
+[layer]
+space = "SE"
+role = "formal-composition"
+
+[depends]
+required = ["structural-explainability/spec-se@v1"]
+optional = []
+
+[provides]
+artifacts = [
+  "ANNOTATIONS.md",
+  "CITATION.cff",
+  "README.md",
+  "SE_MANIFEST.toml"
+]
+
+[scope]
+includes = [
+  "neutrality predicates",
+  "conformance composition across specs",
+  "identifier-to-theorem trace scaffolding",
+]
+excludes = [
+  "domain semantics",
+  "implementation details",
+  "truth, causal, or normative assertions",
+]
+
+[citation]
+cff = "CITATION.cff"
+preferred = "repo"
+bib_hint = "case2025-lean-se"
+
+[traceability]
+identifier_map = "StructuralExplainability/Spec/IdentifierMap.lean"
