@@ -26,13 +26,11 @@ license = "MIT"
 keywords = [
   "structural-explainability",
   "accountability",
-  "semantic-interoperability",
+  "neutrality",
   "exchange-protocol",
-  "provenance",
-  "dependency-graphs",
-  "identity-regimes",
-  "formal-ontology",
+  "formal-specification",
   "formal-verification",
+  "proof-carrying",
   "theorem-proving",
   "lean4"
 ]
