@@ -1,7 +1,7 @@
 # Structural Explainability: The Basics
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
-![Build Status](https://github.com/structural-explainability/StructuralExplainability/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/structural-explainability/StructuralExplainability/actions/workflows/ci-lean.yml/badge.svg?branch=main)
 [![Check Links](https://github.com/structural-explainability/StructuralExplainability/actions/workflows/links.yml/badge.svg)](https://github.com/structural-explainability/StructuralExplainability/actions/workflows/links.yml)
 
 > Lean 4 formalization of the contextual structural explainability layer.
