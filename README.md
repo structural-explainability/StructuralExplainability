@@ -48,7 +48,11 @@ Use the active repositories for current work:
 lake update
 lake build
 lake exe verify
+```
 
+## Optional Markdown Lint
+
+```shell
 npx markdownlint-cli2 --fix
 ```
 
